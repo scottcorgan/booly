@@ -6,6 +6,7 @@ test('converts values to true', function (t) {
   t.ok(booly(1), 'number');
   t.ok(booly(true), 'true boolean');
   t.ok(booly('true'), 'true string');
+  t.equal(booly('some string'), 'some string', 'ignores none support values');
   
   t.end();
 });
