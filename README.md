@@ -17,6 +17,8 @@ console.log(booly(1)) // true
 console.log(booly('true')) // true
 
 console.log(booly('false')) // false
+
+console.log(booly('some string')) // some string
 ```
 
 ## Run Tests
