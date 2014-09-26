@@ -15,5 +15,5 @@ var exports = module.exports = function (val) {
   if (typeof val === 'string') return val;
   
   // Not equal comparisons
-  if (val !== 0 && isNumber(val)) return true;
+  if (isNumber(val)) return true;
 };
